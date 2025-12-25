@@ -59,6 +59,7 @@ const Dashboard = () => {
               <h1 className="text-xl font-bold text-blue-600">ConvergeIQ</h1>
             </div>
             <div className="flex items-center gap-4">
+               <a href="/report" className="text-gray-600 hover:text-blue-600 font-medium">Reports</a>
                <span className="text-sm text-gray-500">
                    {user?.username} ({user?.role})
                </span>
